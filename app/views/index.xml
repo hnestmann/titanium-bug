@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<Label id="label"  class="containeritem" onClick="doClick">Hello, World</Label>
+		<WebView id="webview" class="containeritem" willHandleTouches="false" url="https://hnestmann-inside-eu01-dw.demandware.net/on/demandware.store/Sites-RefArch-Site/en_US/CookieCheck-Set"/>
+		<WebView id="webview2" class="containeritem" willHandleTouches="false"/>
+	</Window>
+</Alloy>

@@ -1,0 +1,15 @@
+{
+  "name": "sampleproject",
+  "version": "1.0.0",
+  "description": "Welcome to your Appcelerator Titanium Mobile Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "appc:sim": "appc ti clean; appc run -p ios -D development -C \"98643FA3-B86A-4D56-A4AC-E737FA39BC52\" --I \"12.4\" -s \"8.2.0.v20190906153418\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-ios-device": "^2.0.1"
+  }
+}
