@@ -1,19 +1,8 @@
 ".container": {
 	backgroundColor:"white",
-	layout: 'horizontal'
-}
-
-"Label": {
-	height: Ti.UI.SIZE,
-	color: "#000"
-}
-
-"#label": {
-	font: {
-		fontSize: 12
-	}
+	layout: 'vertical'
 }
 
 ".containeritem": {
-	width: "33%"
+	height: "50%"
 }

@@ -35,19 +35,15 @@ function Controller() {
 
   // Generated UI code
   $.__views.index = Ti.UI.createWindow(
-  { backgroundColor: "white", layout: "horizontal", id: "index" });
+  { backgroundColor: "white", layout: "vertical", id: "index" });
 
   $.__views.index && $.addTopLevelView($.__views.index);
-  $.__views.label = Ti.UI.createLabel(
-  { height: Ti.UI.SIZE, color: "#000", width: "33%", font: { fontSize: 12 }, text: 'Hello, World', id: "label" });
-
-  $.__views.index.add($.__views.label);
-  doClick ? $.addListener($.__views.label, 'click', doClick) : __defers['$.__views.label!click!doClick'] = true;$.__views.webview = Ti.UI.createWebView(
-  { width: "33%", id: "webview", willHandleTouches: false, url: "https://hnestmann-inside-eu01-dw.demandware.net/on/demandware.store/Sites-RefArch-Site/en_US/CookieCheck-Set" });
+  $.__views.webview = Ti.UI.createWebView(
+  { height: "50%", id: "webview", willHandleTouches: false, url: "https://hnestmann-inside-eu01-dw.demandware.net/on/demandware.store/Sites-RefArch-Site/en_US/CookieCheck-Set" });
 
   $.__views.index.add($.__views.webview);
   $.__views.webview2 = Ti.UI.createWebView(
-  { width: "33%", id: "webview2", willHandleTouches: false });
+  { height: "50%", id: "webview2", willHandleTouches: false });
 
   $.__views.index.add($.__views.webview2);
   exports.destroy = function () {};
@@ -74,7 +70,7 @@ function Controller() {
   // controller code. One example deferred event handlers whose
   // functions are not defined until after the controller code
   // is executed.
-  __defers['$.__views.label!click!doClick'] && $.addListener($.__views.label, 'click', doClick);
+
 
   // Extend the $ instance with all functions and properties
   // defined on the exports object.
