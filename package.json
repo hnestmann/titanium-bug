@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-ios-device": "^2.0.1"
+    "node-ios-device": "^2.1.0"
   }
 }
